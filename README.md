@@ -26,6 +26,26 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Features
+
+- User authentication and authorization
+- File upload and management (local and cloud storage)
+- Real-time collaboration using WebSockets
+- Document versioning and history tracking
+- Commenting and replying system
+- Workspace and folder management
+- Integration with external APIs for text and image processing
+
+## Technologies Used
+
+- **Framework**: NestJS
+- **Database**: MongoDB (via Mongoose)
+- **Authentication**: Passport.js with JWT
+- **File Storage**: Multer and Cloudinary
+- **Real-time Communication**: Socket.IO
+- **Testing**: Jest
+- **Other Libraries**: Sharp, Transformers, Swagger for API documentation
+
 ## Installation
 
 ```bash
@@ -57,6 +77,15 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes with clear messages.
+4. Push your branch and create a pull request.
 
 ## Support
 
